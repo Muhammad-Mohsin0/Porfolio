@@ -22,7 +22,7 @@ const LandingPage = () => {
         </h1>
       </div>
           <h1 className="flex items-center justify-center md:justify-start text-4xl md:text-5xl font-bold text-slate-900">
-            Muhammad Mohsin
+            John Wick
             <svg
               width="36"
               height="36"
