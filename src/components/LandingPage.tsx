@@ -81,7 +81,7 @@ const LandingPage = () => {
               before:content-['']
               before:absolute
               before:left-0
-              before:top-[1rem]
+              before:top-4
               before:w-[70px]
               before:h-px
               before:bg-slate-700

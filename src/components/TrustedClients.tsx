@@ -1,12 +1,16 @@
 import React from "react";
 import {
   FigmaVector,
+  git,
   GithubVector,
   JsVector,
   LinkdinVector,
+  materialui,
+  nextjs,
   PostmanVector,
   ReactVector,
   ReduxVector,
+  tailwind,
 } from "../assets/data";
 
 const TrustedClients = () => {
@@ -15,13 +19,19 @@ const TrustedClients = () => {
       image: ReactVector,
     },
     {
-      image: LinkdinVector,
-    },
-    {
-      image: ReduxVector,
+      image: nextjs,
     },
     {
       Image: JsVector,
+    },
+    {
+      Image: tailwind,
+    },
+    {
+      Image: materialui,
+    },
+    {
+      image: ReduxVector,
     },
     {
       Image: PostmanVector,
@@ -30,14 +40,14 @@ const TrustedClients = () => {
       Image: FigmaVector,
     },
     {
-      Image: GithubVector,
+      Image: git,
     },
   ];
   return (
     <div className="w-full py-12 px-4">
       <div className="flex items-center justify-center text-[#2d2d2d] text-center mb-10">
-        <h1 className="text-sm md:text-lg tracking-wide uppercase font-semibold">
-          Trusted By Over 1,000 Clients WorldWide
+        <h1 className="text-sm md:text-2xl tracking-wide uppercase font-bold">
+          My Stacks
         </h1>
       </div>
 
@@ -50,8 +60,7 @@ const TrustedClients = () => {
             <img
               src={item.image || item.Image}
               alt="client logo"
-              className="w-full h-full object-contain transition-all duration-300 
-                     [filter:grayscale(100%)_brightness(110%)_saturate(0%)] 
+              className="w-full h-full object-contain transition-all duration-300 filter-[grayscale(100%)_brightness(110%)_saturate(0%)] 
                      group-hover:filter-none"
             />
           </div>
