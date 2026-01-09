@@ -1,10 +1,7 @@
-import React from "react";
 import {
   FigmaVector,
   git,
-  GithubVector,
   JsVector,
-  LinkdinVector,
   materialui,
   nextjs,
   PostmanVector,
@@ -60,7 +57,7 @@ const TrustedClients = () => {
             <img
               src={item.image || item.Image}
               alt="client logo"
-              className="w-full h-full object-contain transition-all duration-300 filter-[grayscale(100%)_brightness(110%)_saturate(0%)] 
+              className="w-full h-full object-contain transition-all duration-300 md:filter-[grayscale(100%)_brightness(110%)_saturate(0%)] 
                      group-hover:filter-none"
             />
           </div>
