@@ -5,10 +5,12 @@ import Experience from "../components/Experience";
 import EducationAndWork from "../components/EducationAndWork";
 import TrustedClients from "../components/TrustedClients";
 import GameDesign from "../components/GameDesign";
+import AudioPlayer from "../components/AudioPlayer";
 
 const Home = () => {
   return (
     <div>
+      <AudioPlayer />  {/* Persistent across sections */}
       <LandingPage />
       <Works />
       <Projects />
